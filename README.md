@@ -55,7 +55,8 @@ GROUP BY 1;
 
 ### 2. Find the Most Common Rating for Movies and TV Shows
 
-```SELECT
+```sql
+SELECT
 	type,
 	rating
 FROM	
@@ -99,7 +100,8 @@ LIMIT 5;
 
 ### 5. Identify the Longest Movie
 
-```SELECT * 
+```sql
+SELECT * 
 FROM netflix
 WHERE 
 	type = 'Movie'
